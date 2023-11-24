@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbpSlowDemo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpSlowDemo.Domain\AbpSlowDemo.Domain.csproj" />
+    <PackageReference Include="Kayisoft.Abp.AEManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DataQueryManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.Dicom.Misc.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DicomAbnormal.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DicomCompression.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DicomCompression.Policy.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DicomQueryManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.DicomUidsManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.RISCallbackBinding.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.RISCallbackManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.RISQueryBinding.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="Kayisoft.Abp.RISQueryManagement.EntityFrameworkCore" Version="3.2.0" />
+    <PackageReference Include="SharpAbp.MinId.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Abp.OpenIddict.EntityFrameworkCore" Version="8.0.0-rc.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Volo.Abp.Users.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.Blogging.EntityFrameworkCore" Version="8.0.0-rc.1" />
+    <PackageReference Include="Volo.CmsKit.EntityFrameworkCore" Version="8.0.0-rc.1" />
+  </ItemGroup>
+
+</Project>
